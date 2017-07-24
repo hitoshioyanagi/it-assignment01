@@ -10,7 +10,7 @@ class VendingMachine
               coin10:{price:10,stock:10}}
 
   def operation
-# いきなり何をすればいいかわかりにくいので、購入の際にユーザーへの指示を入れたほうがよさそう
+# お金を入れる場合何をすればいいかわかりにくいので、購入の際のユーザーへの指示を入れたほうがよさそう
     puts "合計投入金額:#{@@total}円,購入はp,払い戻しはr"
     drink
     @money = gets.chomp
