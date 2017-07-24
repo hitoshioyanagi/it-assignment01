@@ -39,6 +39,7 @@ class VendingMachine
         @@total += @money.to_i
       else
         puts "利用できない通貨です,釣銭:#{@money}円"
+# aaa円と数字＋"文字列"が入るとそれも入ってしまうのをなんとかしたい
     end
 
     operation
